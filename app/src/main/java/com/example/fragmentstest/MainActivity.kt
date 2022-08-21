@@ -33,18 +33,5 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
-
-
-
-
-        /*binding.button.setOnClickListener {
-            binding.viewFragmentID.tvViewText.text =
-                "Name: ${binding.etName.text} " +
-                        "\n Phone Number: ${binding.etPhoneNumber.text} " +
-                        "\n Email: ${binding.etEmail.text} " +
-                        "\n City: ${binding.etCity.text} "
-        }*/
-
-
     }
 }

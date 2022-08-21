@@ -19,9 +19,15 @@ class EdittextFragment : Fragment(R.layout.fragment_edittext) {
     ): View? {
         _binding = FragmentEdittextBinding.inflate(inflater, container, false)
         val view = binding.root
+
+        binding.button.setOnClickListener {
+            uniVar.name = binding.etName.text.toString()
+            uniVar.phone = binding.etPhoneNumber.text.toString()
+            uniVar.email = binding.etEmail.text.toString()
+            uniVar.city = binding.etCity.text.toString()
+        }
         return view
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
