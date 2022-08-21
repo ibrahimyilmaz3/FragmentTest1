@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FragmentsTest</string>
+    <string name="fragment_edittext">Fragment Edittext</string>
+    <string name="fragment_view_text">FRAGMENT VIEW-TEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_edittext">edittext</string>
+    <string name="hello_blank_fragment_view">view</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="save_to_textview">Save to TextView</string>
+</resources>
